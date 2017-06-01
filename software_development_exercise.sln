@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Domain", "BikeRe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85A2D514-9E99-4A47-87DB-047E6C041CC9}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
 		Description.txt = Description.txt
 		README.md = README.md
 	EndProjectSection
