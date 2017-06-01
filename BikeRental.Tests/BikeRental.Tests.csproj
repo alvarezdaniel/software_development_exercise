@@ -30,6 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
@@ -38,16 +46,32 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RentalBusinessTests.cs" />
+    <Compile Include="RentalBusinessTests_FamilyPromo.cs" />
+    <Compile Include="RentalBusinessTests_ByWeek.cs" />
+    <Compile Include="RentalBusinessTests_ByHour.cs" />
+    <Compile Include="RentalBusinessTests_ByDay.cs" />
+    <Compile Include="RentalBusinessTests_NonExisting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BikeRental.Core\BikeRental.Core.csproj">
-      <Project>{184A7C02-4CA8-47DB-8DDF-B870CE499E1C}</Project>
-      <Name>BikeRental.Core</Name>
+    <ProjectReference Include="..\BikeRental.Domain\BikeRental.Domain.csproj">
+      <Project>{2CDB58C8-D828-4738-97FC-071A0F4AE17A}</Project>
+      <Name>BikeRental.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BikeRental.Impl\BikeRental.Impl.csproj">
+      <Project>{0b51df4e-28cc-4709-9e57-91f820a3480c}</Project>
+      <Name>BikeRental.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BikeRental.Interfaces\BikeRental.Interfaces.csproj">
+      <Project>{0DFD8A55-0064-4202-94A5-0DE929E9FBB0}</Project>
+      <Name>BikeRental.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
