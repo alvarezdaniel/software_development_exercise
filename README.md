@@ -5,3 +5,4 @@ Software Development Exercise (bike rental)
 
 [![Build Status](https://travis-ci.org/alvarezdaniel/software_development_exercise.svg?branch=master)](https://travis-ci.org/alvarezdaniel/software_development_exercise)
 
+[![Coverage Status](https://coveralls.io/repos/github/alvarezdaniel/software_development_exercise/badge.svg?branch=master)](https://coveralls.io/github/alvarezdaniel/software_development_exercise?branch=master)
