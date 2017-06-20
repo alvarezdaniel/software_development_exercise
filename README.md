@@ -60,3 +60,33 @@ The implemented tests covers all required functionalities: Renting only one bike
 
 ## StyleCop analysis result
 
+```
+------ StyleCop 5.0 (build 5.0.6329.1) started ------
+
+Pass 1:   BikeRental.Tests - \Properties\AssemblyInfo.cs
+Pass 1:   BikeRental.Tests - \RentalBusinessTests_ByDay.cs
+Pass 1:   BikeRental.Tests - \RentalBusinessTests_ByHour.cs
+Pass 1:   BikeRental.Tests - \RentalBusinessTests_ByWeek.cs
+Pass 1:   BikeRental.Tests - \RentalBusinessTests_FamilyPromo.cs
+Pass 1:   BikeRental.Tests - \RentalBusinessTests_NonExisting.cs
+Pass 1:   BikeRental.Domain - \Exceptions\InvalidRentalsCountException.cs
+Pass 1:   BikeRental.Domain - \Exceptions\NonExistingBikeException.cs
+Pass 1:   BikeRental.Domain - \Exceptions\NonExistingPromoException.cs
+Pass 1:   BikeRental.Domain - \Prices.cs
+Pass 1:   BikeRental.Domain - \Promo.cs
+Pass 1:   BikeRental.Domain - \Properties\AssemblyInfo.cs
+Pass 1:   BikeRental.Domain - \Rental.cs
+Pass 1:   BikeRental.Domain - \RentalByDay.cs
+Pass 1:   BikeRental.Domain - \RentalByHour.cs
+Pass 1:   BikeRental.Domain - \RentalByWeek.cs
+Pass 1:   BikeRental.Domain - \RentalType.cs
+Pass 1:   BikeRental.Impl - \BikeRentalBusiness.cs
+Pass 1:   BikeRental.Impl - \BikeRentalIoCModule.cs
+Pass 1:   BikeRental.Impl - \Properties\AssemblyInfo.cs
+Pass 1:   BikeRental.Interfaces - \IBikeRentalBusiness.cs
+Pass 1:   BikeRental.Interfaces - \Properties\AssemblyInfo.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
+```
