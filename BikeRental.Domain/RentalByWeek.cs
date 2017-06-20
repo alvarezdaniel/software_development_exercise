@@ -1,15 +1,29 @@
-﻿
-using System;
+﻿//--------------------------------------------------------------------------------
+// <copyright file="RentalByWeek.cs" company="Daniel Alvarez">
+//   Copyright (c) Daniel Alvarez. All rights reserved.
+// </copyright>
+//--------------------------------------------------------------------------------
 
 namespace BikeRental.Domain
 {
+    using System;
+
+    /// <summary>
+    /// Rental by week
+    /// </summary>
     public class RentalByWeek : Rental
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RentalByWeek" /> class.
+        /// </summary>
         public RentalByWeek()
         {
-            RentalType = RentalType.ByWeek;
+            this.RentalType = RentalType.ByWeek;
         }
 
+        /// <summary>
+        /// Rental price
+        /// </summary>
         public override decimal Price
         {
             get
@@ -20,9 +34,11 @@ namespace BikeRental.Domain
 
                 var days = weeks - Math.Truncate(weeks);
                 if (days > 0)
+                {
                     weeks++;
+                }
 
-                return ((decimal)Math.Truncate(weeks) * Prices.ByWeek);
+                return (decimal)Math.Truncate(weeks) * Prices.ByWeek;
             }
         }
     }

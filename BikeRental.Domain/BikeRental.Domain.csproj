@@ -33,7 +33,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exceptions\InvalidRentalsCount.cs" />
+    <Compile Include="Exceptions\InvalidRentalsCountException.cs" />
     <Compile Include="Exceptions\NonExistingPromoException.cs" />
     <Compile Include="Exceptions\NonExistingBikeException.cs" />
     <Compile Include="Prices.cs" />
