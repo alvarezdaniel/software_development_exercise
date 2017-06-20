@@ -6,6 +6,5 @@
 
 This repository was implemented as an exercise for Intive-FDV, following the guidelines in this gist:
 
-[![Link to exercise]()](https://gist.github.com/nicopaez/511f730c68aff7ff651c39223e38763f.js)
+[![Link to exercise]()](<script src="https://gist.github.com/nicopaez/511f730c68aff7ff651c39223e38763f.js"></script>)
 
-{% gist 511f730c68aff7ff651c39223e38763f %}
