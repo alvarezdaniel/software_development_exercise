@@ -47,5 +47,5 @@ The implemented tests covers all required functionalities: Renting only one bike
 - NUnit Adapter 3.7.0.0: Test execution complete
 ========== Run test finished: 27 run (0:00:18,3110473) ==========
 
-
+![nunit](tests.png "Tests result")
 
