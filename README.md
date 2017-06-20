@@ -40,11 +40,11 @@ The implemented tests covers all required functionalities: Renting only one bike
 - For verifying test coverage, I used AxoCover (https://marketplace.visualstudio.com/items?itemName=axodox1.AxoCover)
 
 ## NUnit output
------- Run test started ------
-NUnit Adapter 3.7.0.0: Test execution started
-Running all tests in C:\git\software_development_exercise\BikeRental.Tests\bin\Debug\BikeRental.Tests.dll
-NUnit3TestExecutor converted 27 of 27 NUnit test cases
-NUnit Adapter 3.7.0.0: Test execution complete
+- ------ Run test started ------
+- NUnit Adapter 3.7.0.0: Test execution started
+- Running all tests in C:\git\software_development_exercise\BikeRental.Tests\bin\Debug\BikeRental.Tests.dll
+- NUnit3TestExecutor converted 27 of 27 NUnit test cases
+- NUnit Adapter 3.7.0.0: Test execution complete
 ========== Run test finished: 27 run (0:00:18,3110473) ==========
 
 
