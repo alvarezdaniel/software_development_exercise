@@ -30,7 +30,7 @@ The implemented tests covers all required functionalities: Renting only one bike
 - Singleton design pattern
 - Factory Method design pattern
 - Travis and AppVeyor for Continuous Integration
-- StyleCop for analysis code
+- StyleCop for code analysis
 
 ## How to run the tests
 
