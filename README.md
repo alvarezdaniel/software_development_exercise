@@ -2,7 +2,7 @@
 
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/ooa9a1o9c1634iib/branch/master?svg=true)](https://ci.appveyor.com/project/DanielAlvarez/software-development-exercise/branch/master) [![Travis Build Status](https://travis-ci.org/alvarezdaniel/software_development_exercise.svg?branch=master)](https://travis-ci.org/alvarezdaniel/software_development_exercise)
 
-[![Follow Daniel Alvarez](https://img.shields.io/twitter/follow/dalvarez.svg?style=social)](https://twitter.com/dalvarez) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/dalvarez_hithub)
+[![Follow Daniel Alvarez](https://img.shields.io/twitter/follow/dalvarez.svg?style=social)](https://twitter.com/dalvarez) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/dalvarez_hithub/Lobby)
 
 This repository was implemented as an exercise for Intive-FDV, following the guidelines in this gist:
 
